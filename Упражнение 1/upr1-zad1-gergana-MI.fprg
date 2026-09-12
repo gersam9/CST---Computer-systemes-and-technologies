@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="zad1-gergana-MI"/>
+        <attribute name="authors" value="grade"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-06 02:08:27 "/>
+        <attribute name="created" value="Z3JhZGU7Q0wzMDktMDk7MjAyNS0xMC0wNjsiMDE6Mjc6MDQgIjsyMTQ5"/>
+        <attribute name="edited" value="Z3JhZGU7Q0wzMDktMDk7MjAyNS0xMC0wNjsiMDI6MDg6MjcgIjsxOzIyNjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1044;&#1072; &#1089;&#1077; &#1085;&#1072;&#1087;&#1080;&#1096;&#1077; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1072;, &#1082;&#1086;&#1103;&#1090;&#1086; &#1080;&#1079;&#1080;&#1089;&#1082;&#1074;&#1072; &#1074;&#1098;&#1074;&#1077;&#1078;&#1076;&#1072;&#1085;&#1077; &#1085;&#1072; &#1076;&#1074;&#1077; &#1095;&#1080;&#1089;&#1083;&#1072; &#1080; &#1080;&#1079;&#1074;&#1077;&#1078;&#1076;&#1072; &#1090;&#1103;&#1093;&#1085;&#1072;&#1090;&#1072; &#1089;&#1091;&#1084;&#1072; &#1073;&#1077;&#1079; &#1080;&#1079;&#1087;&#1086;&#1083;&#1079;&#1074;&#1072;&#1085;&#1077; &#1085;&#1072; &#1090;&#1088;&#1077;&#1090;&#1072; &#1087;&#1088;&#1086;&#1084;&#1077;&#1085;&#1083;&#1080;&#1074;&#1072;"/>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a=?&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b=?&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="a&amp;&quot; + &quot;&amp;b&amp;&quot; = &quot;&amp; a+b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

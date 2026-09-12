@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="zad6-gergana-MI"/>
+        <attribute name="authors" value="grade"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 01:31:07 "/>
+        <attribute name="created" value="Z3JhZGU7Q0wzMDktMDk7MjAyNS0xMC0xMzsiMDE6MTk6NDcgIjsyMTU1"/>
+        <attribute name="edited" value="Z3JhZGU7Q0wzMDktMDk7MjAyNS0xMC0xMzsiMDE6MzE6MDcgIjsyOzIyNTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a = ?&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b = ?&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="a" expression="a+b"/>
+            <assign variable="b" expression="a-b"/>
+            <assign variable="a" expression="a-b"/>
+            <output expression="&quot;&#1089;&#1090;&#1086;&#1081;&#1085;&#1086;&#1089;&#1090;&#1080;&#1090;&#1077; &#1085;&#1072; a &#1080; b &#1073;&#1103;&#1093;&#1072; &#1091;&#1089;&#1087;&#1077;&#1096;&#1085;&#1086; &#1088;&#1072;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&quot;" newline="True"/>
+            <output expression="&quot;a = &quot; &amp;a" newline="True"/>
+            <output expression="&quot;b = &quot; &amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
